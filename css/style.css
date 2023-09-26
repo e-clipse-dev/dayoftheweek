@@ -1,0 +1,66 @@
+
+/******************************************
+/* GENERAL
+/*******************************************/
+
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: rgb(193, 152, 186);
+  color: rgb(46, 3, 62);
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1 {
+  margin: 1rem;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+h2 {
+  margin: 0.5rem 20%;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: none;
+}
+
+section {
+  padding: 3rem;
+}
+
+h2, 
+section {
+  background: rgba(246, 185, 184, 0.2);
+}
+
+input {
+  background: rgb(246, 232, 231);
+  text-align: start;
+  margin: 0.5rem auto;
+  padding: 0.2rem 0 0.2rem 1rem;
+}
+
+label {
+  font-size: 2rem;
+  display: block;
+}
+
+button {
+  background: rgb(88, 79, 122);
+  color: rgb(246, 232, 231);
+  margin-top: 0.2rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
